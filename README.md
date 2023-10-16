@@ -1,5 +1,5 @@
-# crDroid OTA repo
-In order for a device to be officially supported by crDroid, OTA information needs to be added.
+# BaikalOS OTA repo
+In order for a device to be officially supported by BaikalOS, OTA information needs to be added.
 Please refer to the following "Readme" to get started
 
 ## 1. Introduction ##
@@ -13,25 +13,25 @@ In order for a device to be OTA compliant, there are a few things to know.
         "maintainer": "Name (nickname)",
         "oem": "OEM",
         "device": "Device Name",
-        "filename": "crDroidAndroid-13.0-<date>-<device codename>-v<crversion>.zip",
-        "download": "https://sourceforge.net/projects/crdroid/files/<device codename>/<crversion>/crDroidAndroid-13.0-<date>-<device codename>-v<crversion>.zip/download",
+        "filename": "BaikalOS-13-<device codename>-<buildtype>-<date>-<number>.zip",
+        "download": "https://sourceforge.net/projects/baikalos/files/<device codename>/BaikalOS-13-<device codename>-<buildtype>-<date>-<number>.zip/download",
         "timestamp": 0000000000,
         "md5": "abcdefg123456",
         "sha256": "abcdefg123456",
         "size": 123456789,
-        "version": "<crversion>",
-        "buildtype": "Testing/Alpha/Beta/Weekly/Monthly",
-        "forum": "https://forum link", #(mandatory)
-        "gapps": "https://gapps link", #(mandatory)
+        "version": "<date>-<number>.zip",
+        "buildtype": "OFFICIAL/DEV/TEST/STB",
+        "forum": "https://forum link",
+        "gapps": "https://gapps link",
         "firmware": "https://firmware link",
         "modem": "https://modem link",
         "bootloader": "https://bootloader link",
         "recovery": "https://recovery link",
         "paypal": "https://donation link",
         "telegram": "https://telegram link",
-        "dt": "https://github.com/crdroidandroid/android_device_<oem>_<device_codename>", #(mandatory)
-        "common-dt": "https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common", #(mandatory)
-        "kernel": "https://github.com/crdroidandroid/android_kernel_<oem>_<SOC>" #(mandatory)
+        "dt": "https://github.com/<xxxxxx>/android_device_<oem>_<device_codename>",
+        "common-dt": "https://github.com/<xxxxxx>/android_device_<orm>_<SOC>-common",
+        "kernel": "https://github.com/<xxxxxx>/android_kernel_<oem>_<SOC>"
     }
   ]
 }
@@ -71,11 +71,11 @@ After you contacted [Gabriel on Telegram](https://telegram.me/gwolf2u), and have
 ### 3.2 Update build ###
 1. Clone this repo locally
 ```
-git clone https://github.com/crdroidandroid/android_vendor_crDroidOTA -b 13.0
+git clone https://github.com/baikalos/android_vendor_BaikalOTA -b 13.0
 ```
-2. Change to the directory where you cloned this repo (android_vendor_crDroidOTA) and fetch updates from repo.
+2. Change to the directory where you cloned this repo (android_vendor_BaikalOTA) and fetch updates from repo.
 ```
-cd android_vendor_crDroidOTA
+cd android_vendor_BaikalOTA
 git fetch --all
 git pull
 ```
