@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "svasiliev22",
+			"oem": "",
+			"device": "Poco F1",
+			"filename": "BaikalOS-13-beryllium-DEV-20231017-02.zip",
+			"download": "https://sourceforge.net/projects/baikalos/files/beryllium/BaikalOS-13-beryllium-DEV-20231017-02.zip/download",
+			"timestamp": 1697546494,
+			"md5": "427fba5bc38ebb7dd98ca182d5e953a5",
+			"sha256": "4810ac5ab54a523c7dc70ea9612c288d6992abebb748caefd4735afefa006af2",
+			"size": 1354444085,
+			"version": "20231017-02.zip",
+			"buildtype": "OFFICIAL",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "",
+			"dt": "",
+			"common-dt": "",
+			"kernel": ""
+		}
+	]
+}

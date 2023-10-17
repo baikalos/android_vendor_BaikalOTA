@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "svasiliev22",
+			"oem": "",
+			"device": "Poco X5 Pro 5G",
+			"filename": "BaikalOS-13-redwood-DEV-20231016-04.zip",
+			"download": "https://sourceforge.net/projects/baikalos/files/redwood/BaikalOS-13-redwood-DEV-20231016-04.zip/download",
+			"timestamp": 1697432220,
+			"md5": "d50cac0433f83d1d3e6fbdee4f36a49f",
+			"sha256": "8da2713916e83e14f32e2cc33b8876ec42dd5086564a768b6e176a0acd6db37c",
+			"size": 1428164945,
+			"version": "20231016-04.zip",
+			"buildtype": "OFFICIAL",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "",
+			"dt": "",
+			"common-dt": "",
+			"kernel": ""
+		}
+	]
+}
